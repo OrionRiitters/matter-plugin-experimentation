@@ -1,0 +1,22 @@
+{
+  "name": "matter-plugin-experimentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/OrionRiitters/matter-plugin-experimentation.git",
+  "author": "orion <orionriitters@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "matter-attractors": "^0.1.6",
+    "matter-js": "^0.14.2",
+    "webpack": "^4.42.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --watch-content-base",
+    "build": "webpack --config webpack.config.js"
+  }
+}
